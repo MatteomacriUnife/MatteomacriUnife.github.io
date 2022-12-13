@@ -1,0 +1,110 @@
+body {
+  background-image: linear-gradient(90deg, #a8dadc, #c1d3fe);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* INDEX */
+#fs_index {
+  margin: auto;
+  border-radius: 15px;
+  width: 600px;
+  height: 530px;
+  background: #ebf2fa;
+}
+
+ol {
+  margin: 25px;
+  line-height: 40px;
+  font-size: 25px;
+  text-align: left;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* LIBRO */
+#fs_search {
+  margin: auto;
+  border-radius: 15px;
+  width: 600px;
+  height: fit-content;
+  background: #ebf2fa;
+}
+
+#editText {
+  width: 450px;
+  height: auto;
+  margin-left: 15px;
+}
+
+#submit {
+  margin-left: 35px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+tbody {
+  margin: 50px;
+}
+
+tr {
+  font-size: larger;
+  text-align: center;
+}
+
+#th_titolo {
+  padding-left: 50px;
+  text-align: left;
+}
+
+#td_titolo {
+  padding-left: 50px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+}
+
+tr:nth-child(odd) {
+  background-color: #ebf2fa;
+}
+
+th {
+  text-align: left;
+  padding-left: 8px;
+}
+
+/* AUTORE */
+
+#fs_search_autore {
+  margin: auto;
+  border-radius: 15px;
+  width: 600px;
+  height: fit-content;
+  background: #ebf2fa;
+}
+
+#editTextAutore {
+  width: 450px;
+  height: auto;
+  margin: 8px;
+}
+
+#submitautore {
+  margin-left: 35px;
+}
+
+label {
+  display: inline-block;
+}
